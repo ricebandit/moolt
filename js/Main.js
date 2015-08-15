@@ -30,9 +30,16 @@ $(document).ready(function(){
     
     $(".section").css({display:"none"});
     
+    displayLimitedTimeCTA();
+    
+    
     // Display Initial Section
     displayNextSection(cover);
 });
+
+function displayLimitedTimeCTA(){
+    var ks = new KickstarterButton();
+}
 
 function displayNextSection(section){
     if(section == currSection){ return; }
