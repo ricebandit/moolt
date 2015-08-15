@@ -1,0 +1,278 @@
+html{
+    padding: 0 0;
+    margin: 0 0;
+}
+
+body{
+    padding: 0 0;
+    margin: 0 0;
+}
+
+#main_container{
+    position:relative;
+    /*min-width:360px;*/
+    width:100%;
+}
+
+#content{
+    position: relative;
+    margin:0px auto;
+}
+
+
+.section{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    opacity:0;
+}
+
+
+/*
+===========================================================
+COVER PAGE
+===========================================================
+*/
+#cover{
+    background:url(../images/cover_image.png) no-repeat center;
+    background-size:cover;
+}
+
+
+/*
+===========================================================
+BIOS PAGE
+===========================================================
+*/
+#bios{
+    
+}
+
+#bios .container{
+    position:relative;
+    width:85%;
+    margin:0 auto;
+}
+
+#bios .member{
+    position:relative;
+    width:100%;
+}
+
+#bios .header{
+    position:relative;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#bios .header .name{
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    
+    font-size:28px;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    
+    color:#7E9A72;
+}
+
+#bios .header .bg{
+    position:absolute;
+    top:0;
+    width:100%;
+    height:100%;
+}
+
+#bios .header .bg img{
+    margin-top:0;
+}
+
+#bios .bio{
+    position:relative;
+    margin:0 auto;
+    width:95%;
+    font-family: 'Open Sans', sans-serif;
+    font-size:20px;
+    text-align:justify;
+    
+}
+
+
+
+/*
+===========================================================
+CONTACT PAGE
+===========================================================
+*/
+#contact{
+    
+}
+
+textarea
+{
+	resize:none;
+    padding:4px;
+}
+
+*:focus {
+    outline-style: none;
+    -webkit-border-radius: 0;
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color:white;
+    -webkit-box-shadow: 0 0 0 1000px black inset;
+    
+    color:white;
+}
+
+
+textarea, input { 
+    outline: none; 
+    outline-style: none; 
+    -webkit-border-radius: 0;
+}
+
+#email_form{
+    position:relative;
+}
+
+#email_form form{
+	width:100%;
+	height:100%;
+}
+
+.input_50{
+    background:black;
+    color:white;
+    
+    
+    border:none;
+    
+    float:left;
+    
+    font-family: 'Open Sans', sans-serif;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
+.input_100{
+    background:#7e9a72;
+    color:black;
+    
+    width:100%;
+    
+    border:none;
+    
+    float:left;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
+.submit_button{
+    background:black;
+    width:100%;
+    
+    color: white;
+    border:none;
+	border:none;
+	
+	cursor:pointer;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
+.submit_button:hover
+{
+	color:gray;
+	border:none;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
+.first_name{
+    border-bottom: 1px solid #7e9a72;
+}
+
+.last_name{
+    border-left: 1px solid #7e9a72;
+    border-bottom: 1px solid #7e9a72;
+}
+
+.email_address_confirm{
+    border-left: 1px solid #7e9a72;
+}
+
+
+
+/*
+===========================================================
+FOOTER
+===========================================================
+*/
+#footer{
+    position:absolute;
+    bottom:0;
+}
+
+#logo{
+    background:url(../images/footer_logo.png) no-repeat;
+    background-size:cover;
+    
+    cursor:pointer;
+}
+
+#btns{
+    position:relative;
+    margin:0 auto;
+}
+
+.btn{
+    background:#ffffff;
+    float:left;
+    
+    cursor:pointer;
+}
+
+.btn:hover{
+    opacity:.75;
+    
+}
+
+#bios_btn{
+    background:url(../images/btn_bio.png)no-repeat;
+    background-size:cover;
+}
+
+#contact_btn{
+    background:url(../images/btn_contact.png)no-repeat;
+    background-size:cover;
+}
+
+#youtube_btn{
+    background:url(../images/btn_youtube.png)no-repeat;
+    background-size:cover;
+}
+
+#vimeo_btn{
+    background:url(../images/btn_vimeo.png)no-repeat;
+    background-size:cover;
+}
+
+#facebook_btn{
+    background:url(../images/btn_facebook.png)no-repeat;
+    background-size:cover;
+}
+
+#twitter_btn{
+    background:url(../images/btn_twitter.png)no-repeat;
+    background-size:cover;
+}
